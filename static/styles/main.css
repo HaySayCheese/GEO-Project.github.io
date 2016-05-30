@@ -28,11 +28,6 @@
         position: relative;
     }
 }
-@media screen and (min-width: 992px) {
-    .cover {
-        position: fixed;
-    }
-}
 .cover-content {
     height: 100%;
     padding: 60px;
@@ -59,7 +54,15 @@ h2 {
     height: 40px;
     width: 40px;
 }
-.bottom-row {
-    position: fixed;
-    bottom: 2em;
+@media screen and (min-width: 992px) {
+    .bottom-row {
+        position: fixed;
+        bottom: 2em;
+    }
+    .cover {
+        position: fixed;
+    }
+    .cover-content {
+        padding: 20px;
+    }
 }
