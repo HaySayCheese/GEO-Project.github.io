@@ -10,9 +10,7 @@
     font-family: PTMono;
     font-size: 20px;
     line-height: 1.5;
-    /*@media screen and (min-width: 992px) {*/
-        /*margin-top: 50rem;*/
-    /*}*/
+    padding: 50px;
 }
 .cover {
     background: url('../images/background.png') center center no-repeat;
@@ -24,6 +22,9 @@
     height: 100%;
 }
 @media screen and (max-width: 991px) {
+    .bottom-row {
+        padding: 50px;
+    }
     .cover {
         position: relative;
     }
@@ -51,6 +52,11 @@ h2 {
     border-radius: 0;
     padding: 1em calc(1.44em - 0.14em) 1em 1.44em;
     letter-spacing: 0.14em;
+    font-weight: bold;
+}
+.white-paper:hover {
+    background-color: white;
+    border-color: white;
 }
 .icon {
     height: 40px;
@@ -66,5 +72,10 @@ h2 {
     }
     .cover-content {
         padding: 60px;
+    }
+}
+@media screen and (min-width: 400px){
+    .icon {
+        margin-left: 20px;
     }
 }
