@@ -11,7 +11,7 @@
 }
 .text-content {
     font-family: PTMono;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
     padding: 50px;
 }
@@ -47,6 +47,7 @@
 }
 h1 {
     font-size: 15em;
+    font-family: SansSerif;
 }
 h2 {
     font-size: 32px;
