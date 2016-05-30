@@ -12,7 +12,7 @@
     line-height: 1.5;
 }
 .cover {
-    background: url('../images/bitcoin.png') center center no-repeat;
+    background: url('../images/background.png') center center no-repeat;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,16 +23,20 @@
 }
 .cover-content {
     height: 100%;
-    font-family: "din-condensed-web";
 }
 .cover-content .headline {
     color: white;
     font-family: PFDinCondense;
 }
 h1 {
-    font-size: 200px;
+    font-size: 250px;
 }
 h2 {
     font-size: 32px;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.white-paper {
+    border-color: white;
+    border-radius: 0;
 }
