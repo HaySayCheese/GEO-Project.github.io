@@ -4,7 +4,8 @@
    }
 .text-content {
     font-family: PTMono;
-    font-size: 14px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 .cover {
     background: url('../images/bitcoin.png') center center no-repeat;
@@ -18,4 +19,15 @@
 }
 .cover-content {
     height: 100%;
+    font-family: "din-condensed-web";
+}
+.cover-content .headline {
+    color: white;
+}
+h1 {
+    font-size: 200px;
+}
+h2 {
+    font-size: 32px;
+    text-transform: uppercase;
 }
