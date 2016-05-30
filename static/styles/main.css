@@ -9,6 +9,10 @@
     font-family: PFDinCondense;
     src: url(../fonts/PFDinCondensedRegular.ttf);
 }
+@font-face {
+    font-family: DinCondensed;
+    src: url(../fonts/DINCondensedCyrillic.ttf);
+}
 .text-content {
     font-family: PTMono;
     font-size: 20px;
@@ -43,11 +47,10 @@
 }
 .cover-content .headline {
     color: white;
-    font-family: PFDinCondense;
+    font-family: DinCondensed;
 }
 h1 {
     font-size: 15em;
-    font-family: SansSerif;
 }
 h2 {
     font-size: 32px;
