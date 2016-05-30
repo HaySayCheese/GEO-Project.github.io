@@ -1,7 +1,11 @@
 @font-face {
     font-family: PTMono;
     src: url(../fonts/pt-mono.regular.ttf);
-   }
+}
+@font-face {
+    font-family: PFDinCondense;
+    src: url(../fonts/PFDinCondensedRegular.ttf);
+}
 .text-content {
     font-family: PTMono;
     font-size: 20px;
@@ -23,6 +27,7 @@
 }
 .cover-content .headline {
     color: white;
+    font-family: PFDinCondense;
 }
 h1 {
     font-size: 200px;
