@@ -1,5 +1,9 @@
+@font-face {
+    font-family: PTMono;
+    src: url(../fonts/pt-mono.regular.ttf);
+   }
 .text-content {
-    font-family: 'PT Mono', Serif;
+    font-family: PTMono;
 }
 .cover {
     background: url('../images/bitcoin.png') center center no-repeat;
