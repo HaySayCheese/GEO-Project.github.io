@@ -6,10 +6,6 @@
     src: url(../fonts/pt-mono.regular.ttf);
 }
 @font-face {
-    font-family: PFDinCondense;
-    src: url(../fonts/PFDinCondensedRegular.ttf);
-}
-@font-face {
     font-family: DinCondensed;
     src: url(../fonts/DINCondensedCyrillic.ttf);
 }
@@ -88,4 +84,10 @@ h2 {
     .icon {
         margin-left: 20px;
     }
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
 }
