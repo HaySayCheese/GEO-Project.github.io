@@ -27,10 +27,12 @@
     .cover {
         position: relative;
     }
+    .cover-content {
+        padding: 60px;
+    }
 }
 .cover-content {
     height: 100%;
-    padding: 60px;
 }
 .cover-content .headline {
     color: white;
