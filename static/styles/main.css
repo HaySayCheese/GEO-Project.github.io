@@ -21,14 +21,17 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    @media screen and (min-width: 992px) {
-        position: fixed;
-    }
-    @media screen and (max-width: 991px) {
+    height: 100%;
+}
+@media screen and (max-width: 991px) {
+    .cover {
         position: relative;
     }
-    height: 100%;
+}
+@media screen and (min-width: 992px) {
+    .cover {
+        position: fixed;
+    }
 }
 .cover-content {
     height: 100%;
