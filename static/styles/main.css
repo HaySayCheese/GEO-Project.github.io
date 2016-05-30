@@ -1,0 +1,11 @@
+.text-content {
+    font-family: 'PT Mono', Serif;
+}
+.cover {
+    background: url('../images/bitcoin.png') center center no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
