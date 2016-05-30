@@ -10,6 +10,9 @@
     font-family: PTMono;
     font-size: 20px;
     line-height: 1.5;
+    /*@media screen and (min-width: 992px) {*/
+        /*margin-top: 50rem;*/
+    /*}*/
 }
 .cover {
     background: url('../images/background.png') center center no-repeat;
@@ -18,18 +21,25 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: fixed;
+
+    @media screen and (min-width: 992px) {
+        position: fixed;
+    }
+    @media screen and (max-width: 991px) {
+        position: relative;
+    }
     height: 100%;
 }
 .cover-content {
     height: 100%;
+    padding: 60px;
 }
 .cover-content .headline {
     color: white;
     font-family: PFDinCondense;
 }
 h1 {
-    font-size: 250px;
+    font-size: 15em;
 }
 h2 {
     font-size: 32px;
@@ -41,4 +51,12 @@ h2 {
     border-radius: 0;
     padding: 1em calc(1.44em - 0.14em) 1em 1.44em;
     letter-spacing: 0.14em;
+}
+.icon {
+    height: 40px;
+    width: 40px;
+}
+.bottom-row {
+    position: fixed;
+    bottom: 2em;
 }
