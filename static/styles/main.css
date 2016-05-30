@@ -39,4 +39,6 @@ h2 {
 .white-paper {
     border-color: white;
     border-radius: 0;
+    padding: 1em calc(1.44em - 0.14em) 1em 1.44em;
+    letter-spacing: 0.14em;
 }
