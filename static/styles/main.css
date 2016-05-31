@@ -31,7 +31,7 @@
 }
 @media screen and (max-width: 991px) {
     .bottom-row {
-        padding: 50px;
+        padding: 20px;
     }
     .cover {
         position: relative;
