@@ -46,6 +46,8 @@
 .cover-content .headline {
     color: white;
     font-family: DinCondensed;
+    line-height: 1;
+    margin-top: 40px
 }
 h1 {
     font-size: 16em;
