@@ -109,6 +109,7 @@ h2 {
 }
 .countdown .figure {
   position: relative;
+    padding-top: 0;
   float: left;
   height: 110px;
   width: 100px;
