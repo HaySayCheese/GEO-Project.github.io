@@ -99,19 +99,19 @@ h2 {
     background-color: rgba(120,140,140,0.2);
 }
 .countdown {
-    padding-top: 0;
+    padding-top: 0 !important;
 }
 .countdown .bloc-time {
   float: left;
-  margin-right: 45px;
+  margin-right: 5px;
   text-align: center;
   padding: 0;
 }
 .countdown .figure {
   position: relative;
   float: left;
-  height: 110px;
-  width: 100px;
+  height: 60px;
+  width: 50px;
   margin-right: 10px;
   background-color: #fff;
   border-radius: 8px;
