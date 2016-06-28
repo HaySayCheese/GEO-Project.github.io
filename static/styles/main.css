@@ -126,7 +126,7 @@ h2 {
     color: #de4848;
 }
 
-.counter .top:after {
+.counter .figure .bottom-back:after, .counter .figure .top:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -137,18 +137,7 @@ h2 {
     border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
-.bottom-back:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-}
-
-.counter .top {
+.counter .figure .top {
     z-index: 3;
     background-color: #f7f7f7;
     transform-origin: 50% 100%;
@@ -157,10 +146,10 @@ h2 {
     @include transform(perspective(200px));
 }
 
-.counter .bottom {
+.counter .figure .bottom {
     z-index: 1;
 }
-.counter .bottom:before {
+.counter .figure .bottom:before {
     content: "";
     position: absolute;
     display: block;
@@ -172,7 +161,7 @@ h2 {
 }
 
 
-.counter .bottom-back {
+.counter .figure .bottom-back {
     z-index: 2;
     top: 0;
     height: 50%;
@@ -180,7 +169,7 @@ h2 {
     background-color: #f7f7f7;
     @include border-top-radius(10px);
 }
-.counter .bottom-back span {
+.counter .figure .bottom-back span {
     position: absolute;
     top: 0;
     left: 0;
@@ -189,13 +178,13 @@ h2 {
 }
 
 
-.counter .top, .top-back {
+.counter .figure .top, .counter .figure .top-back {
       height: 50%;
       overflow: hidden;
       @include backface-visibility(hidden);
     }
 
-.counter .top-back {
+.counter .figure .top-back {
       z-index: 4;
       bottom: 0;
       background-color: #fff;
@@ -204,7 +193,7 @@ h2 {
       @include transform(perspective(200px) rotateX(180deg));
       @include border-bottom-radius(10px);
 }
-.counter .top-back span {
+.counter .figure .top-back span {
     position: absolute;
     top: -100%;
     left: 0;
