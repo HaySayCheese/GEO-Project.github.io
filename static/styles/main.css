@@ -99,35 +99,115 @@ h2 {
     background-color: rgba(120,140,140,0.2);
 }
 
-.count {
-  background: #202020 none repeat scroll 0 0;
-  color: #f8f8f8;
-  display: block;
-  font-family: "Oswald",sans-serif;
-  font-size: 2em;
-  line-height: 2.4em;
-  overflow: hidden;
-  text-align: center;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  top: 0;
-  transform: translateZ(0px);
-  transform-style: flat;
-  width: 100%;
+
+
+.counter  .bloc-time {
+    float: left;
+    margin-right: 45px;
+    text-align: center;
+  }
+
+.counter .figure {
+    position: relative;
+    float: left;
+    height: 110px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    @include box-shadow(0 3px 4px 0 rgba(0, 0, 0, .2),inset 2px 4px 0 0 rgba(255, 255, 255, .08));
 }
-.count.bottom {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.1), transparent);
-  border-bottom: 1px solid #000;
-  border-radius: 0 0 5px 5px;
-  border-top: 1px solid #000;
-  height: 50%;
-  line-height: 0;
-  top: 50%;
-  transform-origin: 50% 0 0;
+.counter .figure >span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-weight: 700;
+    color: #de4848;
 }
-.count.top {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 5px 5px 0 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  height: 50%;
-  transform-origin: 50% 100% 0;
+
+.counter .top:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.bottom-back:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.counter .top {
+    z-index: 3;
+    background-color: #f7f7f7;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    @include border-top-radius(10px);
+    @include transform(perspective(200px));
+}
+
+.counter .bottom {
+    z-index: 1;
+}
+.counter .bottom:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, .02);
+}
+
+
+.counter .bottom-back {
+    z-index: 2;
+    top: 0;
+    height: 50%;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    @include border-top-radius(10px);
+}
+.counter .bottom-back span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.counter .top, .top-back {
+      height: 50%;
+      overflow: hidden;
+      @include backface-visibility(hidden);
+    }
+
+.counter .top-back {
+      z-index: 4;
+      bottom: 0;
+      background-color: #fff;
+      -webkit-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+      @include transform(perspective(200px) rotateX(180deg));
+      @include border-bottom-radius(10px);
+}
+.counter .top-back span {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
