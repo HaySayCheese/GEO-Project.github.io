@@ -98,3 +98,20 @@ h2 {
     height: 100%;
     background-color: rgba(120,140,140,0.2);
 }
+
+.count {
+  background: #202020 none repeat scroll 0 0;
+  color: #f8f8f8;
+  display: block;
+  font-family: "Oswald",sans-serif;
+  font-size: 2em;
+  line-height: 2.4em;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  top: 0;
+  transform: translateZ(0px);
+  transform-style: flat;
+  width: 100%;
+}
