@@ -107,11 +107,27 @@ h2 {
   font-size: 2em;
   line-height: 2.4em;
   overflow: hidden;
-  position: absolute;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   top: 0;
   transform: translateZ(0px);
   transform-style: flat;
   width: 100%;
+}
+.count.bottom {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), transparent);
+  border-bottom: 1px solid #000;
+  border-radius: 0 0 5px 5px;
+  border-top: 1px solid #000;
+  height: 50%;
+  line-height: 0;
+  top: 50%;
+  transform-origin: 50% 0 0;
+}
+.count.top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px 5px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  height: 50%;
+  transform-origin: 50% 100% 0;
 }
