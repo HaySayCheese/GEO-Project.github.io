@@ -98,6 +98,9 @@ h2 {
     height: 100%;
     background-color: rgba(120,140,140,0.2);
 }
+.countdown {
+    padding-top: 0;
+}
 .countdown .bloc-time {
   float: left;
   margin-right: 45px;
@@ -121,11 +124,6 @@ h2 {
     left: 0;
     right: 0;
     margin: auto;
-    font: normal 5.94em/107px "Lato";
-    font-weight: 700;
-    color: black;
-}
-.countdown .dot {
     font: normal 5.94em/107px "Lato";
     font-weight: 700;
     color: black;
