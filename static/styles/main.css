@@ -53,8 +53,10 @@
     margin-top: 60px
 }
 h1 {
-    font-size: 16em;
     line-height: 1;
+}
+h1 .geo {
+    font-size: 16em;
 }
 h2 {
     font-size: 32px;
