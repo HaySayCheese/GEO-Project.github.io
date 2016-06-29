@@ -39,6 +39,9 @@
     .cover-content {
         padding: 10px;
     }
+    .cover-content .headline {
+        margin-top: 60px
+    }
 }
 .cover-content {
     height: 100%;
@@ -58,6 +61,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     margin-left: 15px;
+    margin-top: 0;
 }
 .white-paper {
     border-color: white;
@@ -86,6 +90,9 @@ h2 {
     .cover-content {
         padding: 10px;
     }
+    .cover-content .headline {
+        margin-top: 140px
+    }
 }
 @media screen and (min-width: 400px){
     .icon {
@@ -111,8 +118,8 @@ h2 {
   position: relative;
     padding-top: 0;
   float: left;
-  height: 110px;
-  width: 100px;
+  height: 70px;
+  width: 50px;
   margin-right: 10px;
   background-color: #fff;
   border-radius: 8px;
@@ -125,12 +132,12 @@ h2 {
     left: 0;
     right: 0;
     margin: auto;
-    font: normal 5.94em/107px "Lato";
+    font: normal 3.7em/68px "Lato";
     font-weight: 700;
-    color: black;
+    color: #333;
 }
 .countdown .comma {
-    font: normal 5.94em/107px "Lato";
+    font: normal 3.7em/68px "Lato";
 }
 .countdown .figure .top:after, .countdown .figure .bottom-back:after {
   content: "";
@@ -221,4 +228,8 @@ h2 {
   left: 0;
   right: 0;
   margin: auto;
+}
+.wallet img{
+    height: 100%;
+    width: 100%;
 }
