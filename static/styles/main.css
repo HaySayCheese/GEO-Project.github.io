@@ -65,6 +65,10 @@ h1 span {
     display: inline-block;
     vertical-align: middle;
 }
+h1 button {
+    background: transparent;
+    border: none;
+}
 h2 {
     font-size: 32px;
     text-transform: uppercase;
