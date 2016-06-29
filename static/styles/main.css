@@ -136,8 +136,11 @@ h2 {
     font-weight: 700;
     color: #333;
 }
-.countdown .inner-text {
+.countdown .comma {
     font: normal 3.7em/68px "Lato";
+}
+.countdown .inner-text {
+    font: normal 1.5em/68px "Lato";
 }
 .countdown .figure .top:after, .countdown .figure .bottom-back:after {
   content: "";
