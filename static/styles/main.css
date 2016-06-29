@@ -56,7 +56,14 @@ h1 {
     line-height: 1;
 }
 h1 .geo {
-    font-size: 16em;
+    font-size: 6em;
+}
+h1 .glyphicon {
+    font-size: 2em;
+}
+h1 span {
+    display: inline-block;
+    vertical-align: middle;
 }
 h2 {
     font-size: 32px;
